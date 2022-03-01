@@ -73,4 +73,11 @@ print(b)
 
 # Tipos de datos
 
-#
+# String str
+
+a = "Hola mundo"
+b = 'Hola mundo'
+c = "I can't do it"
+d = 'alias "Deyner"'
+
+
