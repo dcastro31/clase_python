@@ -271,7 +271,8 @@ for valor in range(4):
 
 for valor in range(1, 6):
     print(valor)
-    
+# (primero se selecciona el rango, despues hasta donde y siempre 
+# llegara hasta -1, luego se selecciona de cuanto en cuanto en este caso de 2 en 2)
 for valor in range(1, 100, 2):
     print(valor)
 
@@ -280,7 +281,7 @@ for i in range(1, 11):
         print(i,j)
 
 # While
-
+# Mientras que
 while True:
     print('Hola Mundo')
 
@@ -295,6 +296,8 @@ for i in range(1, numero_notas + 1):
             break
     notas = notas + nota
 prom = notas /numero_notas
+
+# Round es para seleccionar la cantidad de decimales que va a mostrar un resultado
 prom = round(prom, 2)
 print(f'El promedio académico final de las {numero_notas} notas es: {prom} ')
 
